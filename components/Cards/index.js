@@ -75,4 +75,6 @@ function Card(article, parent){
   const authorName = document.createElement('span')
   authorName.textContent = `By ${article.authorName}`
   author.appendChild(authorName)
+
+  return card
 }

@@ -27,6 +27,8 @@ function Header(parent) {
   const temp = document.createElement('span')
   temp.classList.add('temp')
   header.appendChild(temp)
+
+  return header
 }
 
 const headerContainer = document.querySelector('.header-container')
