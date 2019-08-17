@@ -12,7 +12,7 @@ axios
   .get("https://lambda-times-backend.herokuapp.com/topics")
   .then(response => {
     const topics = response.data.topics
-    console.log(topics)
+    // console.log(topics)
     return topics
   })
   .then(topics => {
